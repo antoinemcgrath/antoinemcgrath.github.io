@@ -70,14 +70,14 @@
         <script src="http://platform.twitter.com/widgets.js"></script>
         <script>
             $(document).ready(function(){
-                $.getJSON("https://api.twitter.com/1/statuses/oembed.json?id=1171966580814680068&align=center&callback=?",
+                $.getJSON("https://api.twitter.com/1/statuses/oembed.json?id=287348974577385474&align=center&callback=?",
                     function(data){$('#tweet123').html(data.html);});
             });
 
-            $(document).ready(function(){
-                $.getJSON("https://api.twitter.com/1/statuses/oembed.json?id=1081970190542360582&align=center&callback=?",
-                    function(data){$('#tweet123').html(data.html);});
-            });
+            #$(document).ready(function(){
+            #    $.getJSON("https://api.twitter.com/1/statuses/oembed.json?id=&align=center&callback=?",
+            #        function(data){$('#tweet123').html(data.html);});
+        #}); #https://twitter.com/jessamyn/status/
         </script>
 
         <body>
